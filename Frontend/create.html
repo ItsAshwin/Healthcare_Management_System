@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add Patient</title>
+	<link rel="stylesheet" type="text/css" th:href="@{/styles.css}">
+</head>
+<body>
+    <h1>Add Patient</h1>
+    <form th:action="@{/patients}" th:object="${patient}" method="post">
+        <label for="patientName">Patient Name:</label><br>
+        <input type="text" id="patientName" name="patientName" required><br>
+
+        <label for="patientCity">City:</label><br>
+        <input type="text" id="patientCity" name="patientCity" required><br>
+
+        <label for="patientNumber">Phone Number:</label><br>
+        <input type="text" id="patientNumber" name="patientNumber" required><br>
+
+        <label for="patientDisease">Disease:</label><br>
+        <input type="text" id="patientDisease" name="patientDisease" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

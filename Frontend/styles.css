@@ -1,0 +1,85 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for headings */
+h1 {
+    color: #333;
+}
+
+/* Container for buttons */
+.table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 10px auto;
+}
+
+/* Button Styling */
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+/* Styling for Create Button (Left) */
+.create-btn {
+    background-color: #007bff;
+}
+
+.create-btn:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for Delete All Button (Right) */
+.delete-btn {
+    background-color: #dc3545;
+}
+
+.delete-btn:hover {
+    background-color: #c82333;
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 10px auto;
+    border-collapse: collapse;
+    background: white;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+/* Links inside buttons */
+a button {
+    text-decoration: none;
+    background-color: #ffc107;
+    color: black;
+}
+
+a button:hover {
+    background-color: #e0a800;
+}
